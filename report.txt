@@ -1,0 +1,2862 @@
+$ uname -a
+Darwin lulus-Mac.local 13.0.0 Darwin Kernel Version 13.0.0: Thu Sep 19 22:22:27 PDT 2013; root:xnu-2422.1.72~6/RELEASE_X86_64 x86_64
+
+$ otool -hv /bin/*
+/bin/[:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/bash:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/cat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/chmod:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/cp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/csh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1904   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/date:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/dd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/df:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1680   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/domainname:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/echo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/ed:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/expr:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/hostname:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/kill:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/ksh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/launchctl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2016   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/link:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/ln:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/ls:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1816   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/mkdir:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/mv:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/pax:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/ps:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/pwd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/rcp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/rm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/rmdir:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/sh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/sleep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/stty:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/sync:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1232   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/tcsh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1904   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/test:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/unlink:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/wait4path:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/bin/zsh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1904   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/BuildStrings:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/CpMac:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/DeRez:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/GetFileInfo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/MergePef:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/MvMac:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/RSA_SecurID_getpasswd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1560   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ResMerger:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/Rez:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/RezDet:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/RezWack:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/SetFile:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/SplitForks:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/UnRezWack:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/a2p:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1896   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/a2p5.12:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/a2p5.16:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/addftinfo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1920   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/afconvert:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2360   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/afhash:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2024   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/afida:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       1904   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/afinfo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2208   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/afplay:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2560   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/agentxtrap:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2304   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/agvtool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/allmemory:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2808   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/applesingle:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1760   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/appletviewer:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/apply:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/apt:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ar:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/arch:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1736   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/as:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/asa:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/asctl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    27       3968   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/at:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/atos:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       3008   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/atq:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/atrm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/atsutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       2560   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/automator:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       3272   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/auvaltool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2304   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/avconvert:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       3520   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/avmetareadwrite:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2648   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/awk:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/banner:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/base64:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1656   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/basename:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/batch:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/biff:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/binhex:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1840   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bison:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bsdtar:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bspatch:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bunzip2:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bzcat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bzegrep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bzfgrep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bzgrep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bzip2:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/bzip2recover:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/c++:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/c++filt:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1840   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/c89:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/c99:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/caffeinate:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cal:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/calendar:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cancel:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2096   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cap_mkdb:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/captoinfo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/certtool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2120   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/checknr:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/chflags:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/chfn:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1840   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/chgrp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/chpass:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1840   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/chsh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1840   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cksum:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/clang:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/clang++:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/clear:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cmp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cmpdylib:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/codesign:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2360   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/codesign_allocate:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/col:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/colcrt:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/colldef:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/colrm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/column:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/comm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/command: is not an object file
+/usr/bin/compress:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cpio:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cpp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/crlrefresh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2120   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/crontab:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/csplit:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/csreq:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2120   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/ctags:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ctf_insert:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cu:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cupstestdsc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cupstestppd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    27       2312   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/curl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1816   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cut:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cvaffinity:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2488   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cvcp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2656   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cvmkdir:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2488   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/cvmkfile:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2488   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/darwinup:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1976   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/db_archive:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_checkpoint:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_codegen:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_deadlock:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_dump:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_hotbackup:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_load:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_printlog:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_recover:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_stat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_upgrade:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/db_verify:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/defaults:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2288   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/desdp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/diff:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/diff3:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/diffstat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dig:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2136   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dirname:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ditto:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dns-sd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dnsctl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/drutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       3704   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dscacheutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2312   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dscl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       3416   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dserr:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dsexport:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dsimport:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       3112   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dsmemberutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dsymutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/du:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/dwarfdump:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/efax:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       2064   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/efix:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/egrep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/emacs:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       2264   NOUNDEFS DYLDLINK TWOLEVEL
+/usr/bin/emacs-undumped:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1832   NOUNDEFS DYLDLINK TWOLEVEL
+/usr/bin/emacsclient:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    16       1616   NOUNDEFS DYLDLINK TWOLEVEL
+/usr/bin/encode_keychange:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2256   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/env:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/eqn:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/etags:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    16       1776   NOUNDEFS DYLDLINK TWOLEVEL
+/usr/bin/ex:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/expand:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/expect:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1560   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/extcheck:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/false:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1312   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/fdesetup:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    33       4176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/fg: is not an object file
+/usr/bin/fgrep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/file:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1760   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/filtercalltree:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2320   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/find:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/finger:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/flex:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/flex++:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/fmt:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/fold:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/fontrestore:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       2352   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/footprint:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2248   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/formail:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/from:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/fs_usage:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1760   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ftp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1904   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/funzip:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/fwkdp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1984   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/fwkpfv:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1904   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/g++:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gatherheaderdoc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gcc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gcov:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gencat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/genstrings:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2928   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/getconf:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/getopt:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/git:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/git-cvsserver:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/git-receive-pack:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/git-shell:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/git-upload-archive:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/git-upload-pack:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gm4:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gnuclient:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gnumake:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gnuserv:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gperf:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/grep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/grn:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/grodvi:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/groff:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/grolbp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/grolj4:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/grops:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/grotty:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/groups:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gunzip:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gzcat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/gzip:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/hdid:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1312   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/hdiutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    28       2960   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/hdxml2manxml:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/head:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/headerdoc2html:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/heap:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       3296   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/hexdump:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/hiutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       3656   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/host:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2136   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/hostinfo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/hpftodit:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/ibtool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/iconutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    27       3856   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/iconv:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ictool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/id:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/idlj:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/indent:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/indxbib:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1920   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/info:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1904   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/infocmp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/infokey:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1904   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/infotocap:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/install:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/install-info:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/install_name_tool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/instruments:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ipcrm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ipmitool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2312   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ippfind:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2336   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ipptool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2496   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/iprofiler:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jar:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jarsigner:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/java:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/javac:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/javadoc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/javah:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/javap:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/javaws:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jcmd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jconsole:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jdb:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jhat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jinfo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jmap:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/join:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jot:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jps:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jrunscript:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jsadebugd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/json_pp5.16: is not an object file
+/usr/bin/jstack:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jstat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jstatd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/jvisualvm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/kcc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1864   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/kdestroy:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1728   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/kextutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2000   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/keytool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/kgetcred:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1728   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/killall:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/kinit:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2008   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/klist:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1864   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/kpasswd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1728   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/kswitch:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1864   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lam:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/last:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lastcomm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/latency:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1656   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ld:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldapadd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldapcompare:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldapdelete:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldapexop:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldapmodify:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldapmodrdn:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldappasswd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldapsearch:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldapurl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ldapwhoami:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       3176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/leaks:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       2936   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/leave:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/less:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lessecho:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lex:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/libtool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lipo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lkbib:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/lldb:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/llvm-g++:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/llvm-gcc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/locale:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1840   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/locate:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lockfile:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/logger:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/login:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1808   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/logname:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/look:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lookbib:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/lorder:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2096   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lpoptions:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lppasswd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2096   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lpq:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2256   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lpr:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2096   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lprm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2096   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lpstat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    26       2256   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lsappinfo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       2600   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/lsbom:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1640   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lsm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       3264   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/lsvfs:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/m4:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/macbinary:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1840   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/machine:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1736   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mail:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mailq:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2144 DYLDLINK PIE
+/usr/bin/mailx:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/make:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/makeinfo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/malloc_history:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       3416   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/man:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/manpath:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mcxquery:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       3376   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/mcxrefresh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2320   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mddiagnose:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    27       4040   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mdfind:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mdimport:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    27       3952   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mdimport32:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+   MH_MAGIC    I386        ALL  0x00     EXECUTE    28       3356   NOUNDEFS DYLDLINK TWOLEVEL PIE MH_NO_HEAP_EXECUTION
+/usr/bin/mdls:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mdutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/memcached:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/memory_pressure:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1600   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mesg:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mig:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mkbom:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1560   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mkdep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mkfifo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mklocale:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mktemp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/mnthome:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1928   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/more:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/msgs:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1608   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nano:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nasm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/native2ascii:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nbdst:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1664   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ncal:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ncdestroy:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1312   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ndisasm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nettop:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2072   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/newaliases:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2144 DYLDLINK PIE
+/usr/bin/newgrp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nfsstat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nice:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nmedit:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nohup:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/notifyutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nroff: is not an object file
+/usr/bin/nslookup:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2136   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/nsupdate:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2136   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ntp-keygen:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ntpq:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/od:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/odutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/open:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       3424   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/opendiff:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/openssl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1904   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/orbd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/osacompile:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2136   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/osadecompile:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1584   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/osalang:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1664   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/osascript:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       2240   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/otool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pack200:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pagestuff:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/parl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1896   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/parl5.12:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/parl5.16:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/parldyn:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1896   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/parldyn5.12:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1808   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/parldyn5.16:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1808   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/passwd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1968   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/paste:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/patch:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pathchk:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pbcopy:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2384   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pbpaste:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2384   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pcsctest:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1480   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pcsctool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1480   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/perfdiagnose:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       3288   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/perl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1896   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/perl5.12:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1568   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/perl5.16:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1568   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pfbtops:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1760   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pgrep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/php:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    35       2888   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pic:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/pico:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pkgbuild:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       3288   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pkill:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2288   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/plockstat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pluginkit:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       3168   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/plutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pmset:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2288   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/policytool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/post-grohtml:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/powermetrics:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       2064   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ppdc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    28       2280   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/ppdhtml:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    28       2280   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/ppdi:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    28       2280   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/ppdmerge:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    27       2304   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ppdpo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    28       2280   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/pr:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pre-grohtml:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/printenv:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/printf:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/procmail:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/productbuild:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       3368   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/productsign:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       3128   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/profiles:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       3280   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pstopdf:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pubsub:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       3200   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pwpolicy:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2120   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/python:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1816   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/python2.5:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+   MH_MAGIC    I386        ALL  0x00     EXECUTE    17       1144   NOUNDEFS DYLDLINK TWOLEVEL PIE MH_NO_HEAP_EXECUTION
+/usr/bin/python2.6:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/python2.7:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1480   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pythonw:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1816   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pythonw2.5:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+   MH_MAGIC    I386        ALL  0x00     EXECUTE    17       1144   NOUNDEFS DYLDLINK TWOLEVEL PIE MH_NO_HEAP_EXECUTION
+/usr/bin/pythonw2.6:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/pythonw2.7:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1480   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/qc2movie:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+   MH_MAGIC    I386        ALL  0x00     EXECUTE    24       2160   NOUNDEFS DYLDLINK TWOLEVEL PIE MH_NO_HEAP_EXECUTION
+/usr/bin/qlmanage:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    30       4384   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/qtdefaults:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+   MH_MAGIC    I386        ALL  0x00     EXECUTE    23       2460   NOUNDEFS DYLDLINK TWOLEVEL PIE MH_NO_HEAP_EXECUTION
+/usr/bin/quota:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ranlib:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/readlink:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rebase:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/redo_prebinding:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/refer:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/renice:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/reset:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/resolveLinks:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rev:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rlogin:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rmic:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rmid:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rmiregistry:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rpcgen:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rs:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rsh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rsync:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ruby:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1480   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ruptime:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rview:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rvim:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rwbypid.d: is not an object file
+/usr/bin/rwbytype.d: is not an object file
+/usr/bin/rwho:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/rwsnoop: is not an object file
+/usr/bin/s2p: is not an object file
+/usr/bin/s2p5.12: is not an object file
+/usr/bin/s2p5.16: is not an object file
+/usr/bin/sample:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       2728   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sampleproc: is not an object file
+/usr/bin/sandbox-exec:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sandbox-simplify: is not an object file
+/usr/bin/sar:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/say:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2648   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/sc_usage:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1656   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/scandeps.pl: is not an object file
+/usr/bin/scandeps5.12.pl: is not an object file
+/usr/bin/scandeps5.16.pl: is not an object file
+/usr/bin/schemagen:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/scp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/screen:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/script:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sdef:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sdiff:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sdp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sdx: is not an object file
+/usr/bin/security:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2280   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/sed:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/seeksize.d: is not an object file
+/usr/bin/segedit:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/seq:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/serialver:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/servertool:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/setregion:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       1648   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/setuids.d: is not an object file
+/usr/bin/sftp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/shar: is not an object file
+/usr/bin/shasum: is not an object file
+/usr/bin/shasum5.12: is not an object file
+/usr/bin/shasum5.16: is not an object file
+/usr/bin/shlock:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/showmount:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1672   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sigdist.d: is not an object file
+/usr/bin/sips:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2384   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/size:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/slogin:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/smbutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2192   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/smtpd.py: is not an object file
+/usr/bin/smtpd2.5.py: is not an object file
+/usr/bin/smtpd2.6.py: is not an object file
+/usr/bin/smtpd2.7.py: is not an object file
+/usr/bin/snfsdefrag:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2488   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmp-bridge-mib: is not an object file
+/usr/bin/snmpbulkget:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpbulkwalk:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpconf: is not an object file
+/usr/bin/snmpdelta:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2336   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpdf:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpget:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2016   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpgetnext:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2016   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpinform:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpnetstat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpset:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2096   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpstatus:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2096   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmptable:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2256   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmptest:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2096   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmptranslate:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2016   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmptrap:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpusm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2256   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpvacm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2176   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/snmpwalk:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2256   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sntp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/soelim:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1920   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/sort:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/spfd: is not an object file
+/usr/bin/spfd5.12: is not an object file
+/usr/bin/spfd5.16: is not an object file
+/usr/bin/spfquery: is not an object file
+/usr/bin/spfquery5.12: is not an object file
+/usr/bin/spfquery5.16: is not an object file
+/usr/bin/splain: is not an object file
+/usr/bin/splain5.12: is not an object file
+/usr/bin/splain5.16: is not an object file
+/usr/bin/split:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sqlite3:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1880   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/srm:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ssh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ssh-add:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ssh-agent:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ssh-keygen:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ssh-keyscan:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/stat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/stringdups:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       3496   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/strings:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/strip:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/stty.pl: is not an object file
+/usr/bin/stty5.12.pl: is not an object file
+/usr/bin/stty5.16.pl: is not an object file
+/usr/bin/su:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1680   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sum:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/svn:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/svnadmin:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/svndumpfilter:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/svnlook:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/svnserve:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/svnsync:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/svnversion:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/sw_vers:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1576   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/symbols:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2776   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/symbolscache:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2240   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/syscallbypid.d: is not an object file
+/usr/bin/syscallbyproc.d: is not an object file
+/usr/bin/syscallbysysc.d: is not an object file
+/usr/bin/sysdiagnose:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       3288   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/syslog:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tab2space:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tabs:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1528   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tail:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/talk:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tar:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tbl:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/tccutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    21       2136   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tclsh:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1584   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tclsh8.4:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+   MH_MAGIC    I386        ALL  0x00     EXECUTE    19       1332   NOUNDEFS DYLDLINK TWOLEVEL MH_NO_HEAP_EXECUTION
+/usr/bin/tclsh8.5:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1584   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tee:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/telnet:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1920   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/testrb: is not an object file
+/usr/bin/texi2dvi: is not an object file
+/usr/bin/texi2pdf: is not an object file
+/usr/bin/texindex:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/textutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2864   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tfmtodit:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/tftp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tic:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tidy:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tiff2icns:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    25       2664   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tiffutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2936   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/time:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/timer_analyser.d: is not an object file
+/usr/bin/timerfires: is not an object file
+/usr/bin/tkcon: is not an object file
+/usr/bin/tkmib: is not an object file
+/usr/bin/tkpp: is not an object file
+/usr/bin/tkpp5.12: is not an object file
+/usr/bin/tkpp5.16: is not an object file
+/usr/bin/tmdiagnose:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       3648   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tmutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    31       4504   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tnameserv:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/toe:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1608   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/top:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2224   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tops:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       3248   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/topsyscall: is not an object file
+/usr/bin/topsysproc: is not an object file
+/usr/bin/touch:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tput:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tr:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/trace:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1600   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/traptoemail: is not an object file
+/usr/bin/treereg: is not an object file
+/usr/bin/treereg5.12: is not an object file
+/usr/bin/treereg5.16: is not an object file
+/usr/bin/trial: is not an object file
+/usr/bin/troff:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       2000   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+/usr/bin/true:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1312   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tset:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tsort:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/tty:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/twistd: is not an object file
+/usr/bin/type: is not an object file
+/usr/bin/ubcontrol:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    24       2368   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ul:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1688   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ulimit: is not an object file
+/usr/bin/umask: is not an object file
+/usr/bin/unalias: is not an object file
+/usr/bin/uname:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uncompress:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/unexpand:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/unifdef:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/unifdefall:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uniq:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/units:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/unpack200:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/unvis:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/unzip:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/unzipsfx:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/update_dyld_shared_cache:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       2200   NOUNDEFS DYLDLINK TWOLEVEL BINDS_TO_WEAK PIE
+/usr/bin/uptime:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/users:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uucp:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uudecode:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uuencode:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uuidgen:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1576   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uulog:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uuname:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uupick:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uustat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/uuto: is not an object file
+/usr/bin/uux:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/vi:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/view:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/vim:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/vimdiff:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1824   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/vimtutor: is not an object file
+/usr/bin/vis:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/vm_stat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/vmmap:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       2888   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/w:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1768   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/wait: is not an object file
+/usr/bin/wall:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/wc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1712   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/wdutil:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    23       3112   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/weblatency.d: is not an object file
+/usr/bin/what:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/whatis: is not an object file
+/usr/bin/whereis:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/which:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/who:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/whoami:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/whois:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/wish: is not an object file
+/usr/bin/wish8.4: is not an object file
+/usr/bin/wish8.5: is not an object file
+/usr/bin/write:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/wsgen:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/wsimport:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xar:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1680   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xargs:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xattr: is not an object file
+/usr/bin/xattr-2.5: is not an object file
+/usr/bin/xattr-2.6: is not an object file
+/usr/bin/xattr-2.7: is not an object file
+/usr/bin/xcode-select:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xcodebuild:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xcrun:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xed:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xgettext.pl: is not an object file
+/usr/bin/xgettext5.12.pl: is not an object file
+/usr/bin/xgettext5.16.pl: is not an object file
+/usr/bin/xip:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    22       2648   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xjc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    19       1848   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xml2-config: is not an object file
+/usr/bin/xml2man:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xmlcatalog:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xmllint:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1528   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xpath: is not an object file
+/usr/bin/xpath5.12: is not an object file
+/usr/bin/xpath5.16: is not an object file
+/usr/bin/xslt-config: is not an object file
+/usr/bin/xsltproc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1720   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/xsubpp: is not an object file
+/usr/bin/xsubpp5.12: is not an object file
+/usr/bin/xsubpp5.16: is not an object file
+/usr/bin/xxd:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1632   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/yacc:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1448   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/yes:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ypcat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1552   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ypmatch:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1392   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/ypwhich:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1472   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zcat:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zcmp: is not an object file
+/usr/bin/zdiff: is not an object file
+/usr/bin/zegrep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zfgrep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zforce: is not an object file
+/usr/bin/zgrep:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    20       1872   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zip:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zipcloak:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zipdetails: is not an object file
+/usr/bin/zipdetails5.16: is not an object file
+/usr/bin/zipgrep: is not an object file
+/usr/bin/zipinfo:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zipnote:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zipsplit:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    17       1792   NOUNDEFS DYLDLINK TWOLEVEL PIE
+/usr/bin/zless: is not an object file
+/usr/bin/zmore: is not an object file
+/usr/bin/znew: is not an object file
+/usr/bin/zprint:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    18       1520   NOUNDEFS DYLDLINK TWOLEVEL PIE

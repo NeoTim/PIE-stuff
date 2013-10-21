@@ -1,0 +1,288 @@
+#!/bin/bash
+#
+# imptrace - Importance Inheritance Trace Tool
+#
+# Copyright 2013 by Apple Inc.
+#
+# This tool shows the flow of importance boosts from importance donating tasks
+# to adaptive tasks.  It can be used to confirm that an adaptive task is
+# behaving properly.
+#
+# This tool makes use of six dtrace probes provided by the kernel.  They are as
+# follows:
+#
+#     boost:::receive_boost - Process has dequeued a boosting message from a
+#               port, taking responsibility for the boost.
+#         arg0: task_t for target task
+#         arg1: pid of target task
+#         arg2: pid of boosting task
+#         arg3: boosts received
+#         arg4: total boosts held
+#
+#     boost:::receive_internal_boost - Process has been sent a boosting message,
+#               or provided a kernel-internal boost.
+#         arg0: task_t for target task
+#         arg1: pid of target task
+#         arg2: task_t of boosting task
+#         arg3: pid of boosting task
+#         arg4: boosts received
+#         arg5: total internal boosts held
+#
+#     boost:::drop_boost - Process releases a boost assertion.
+#     boost:::drop_internal_boost - Process releases a boost assertion or the
+#               kernel drops a kernel-internal boost.
+#         arg0: task_t for target task
+#         arg1: pid of target task
+#         arg2: (internal) boosts dropped
+#         arg3: total (internal) boosts held
+#
+#     boost:::boost - Process becomes boosted, moving out of background state.
+#     boost:::unboost - Process returns to background state.
+#         arg0: task_t of the (un)boosted task
+#         arg1: pid of the (un)boosted task
+#
+# Users of these probes should make no assumptions about the thread on which
+# they fire.  A received/dropped count of 0 indicates an error; more information
+# will be available in the system log.
+#
+# Note that when using -s or -d the output is unsorted and events may appear out
+# of order.  Event timestamps should be used to determine actual event ordering.
+
+SCRIPTFILE=$(mktemp /tmp/$(basename $0).XXXXXX) || exit 1
+trap "rm $SCRIPTFILE; exit" SIGHUP SIGINT SIGTERM
+
+function print_usage(){
+	echo "USAGE: $0 [-i [-s]] [-p PID] [-d]"
+	echo ""
+	echo "	-p PID	Filter events to target PID"
+	echo "	-i	Show internal kernel boosts"
+	echo "	-s	Show stacks for internal boosts (implies -d -i)"
+	echo "	-d	Direct output, skip sorting and timestamp formatting"
+	exit 1
+}
+
+cat > $SCRIPTFILE << "EOF"
+#pragma D option quiet
+#pragma D option stackindent=19
+#pragma D option switchrate=10hz
+
+#define task2pid(t) (\
+	( ((struct task *)t)->bsd_info != NULL) \
+	? ((struct proc *)((struct task *)t)->bsd_info)->p_pid \
+	: 0)
+
+#define task2name(t) (\
+	( ((struct task *)t)->bsd_info != NULL) \
+	? ((struct proc *)((struct task *)t)->bsd_info)->p_comm \
+	: "")
+
+string pidnames[int];
+uint64_t boosttime[int];
+
+dtrace:::BEGIN
+{
+	printf("%-16s %-16s %-22s %-6s %s\n", "TIMESTAMP", "EVENT", "PROCESS",
+	"BOOSTS", "NOTES");
+}
+
+// For tracking task names
+boost:mach_kernel::receive_internal_boost
+{
+	pidnames[arg3] = task2name(arg2);
+}
+
+// Free names of dead processes
+fbt:mach_kernel:proc_exit:entry { 
+	pidnames[((proc_t)arg0)->p_pid] = 0;
+}
+EOF
+
+predicate="1 == 1"
+appsleeppredicate="1 == 1"
+stacks=""
+internal=0
+postprocess=1
+appsleep=0
+
+while getopts p:ihsda option
+do
+	if [ "$option" = "p" ]; then
+		predicate="arg1 == $OPTARG"
+		appsleeppredicate="task2pid(arg0) == $OPTARG"
+	elif [ "$option" = "i" ]; then
+		internal=1
+	elif [ "$option" = "s" ]; then
+		recvstack='printf("Sender:");ustack();printf("\n");'
+		dropstack='printf("Dropper:");ustack();printf("\n");'
+		appsleepstack='printf("AppSleep:");ustack();printf("\n");'
+		postprocess=0
+		internal=1
+	elif [ "$option" = "d" ]; then
+		postprocess=0
+	elif [ "$option" = "a" ]; then
+		appsleep=1
+	elif [ "$option" = "h" ]; then
+		print_usage
+	fi
+done
+
+cat >> $SCRIPTFILE << EOF
+boost:mach_kernel::receive_boost
+/arg3 > 1 && $predicate/
+{
+	printf("%016lu %-18s % 6d:%-15s % 6d from % 6d:%-15s (count: %d)\\n",
+	timestamp, "→ Recv Boost", arg1, task2name(arg0), arg4, arg2,
+	pidnames[arg2], arg3);
+}
+
+boost:mach_kernel::receive_boost
+/arg3 == 1 && $predicate/
+{
+	printf("%016lu %-18s % 6d:%-15s % 6d from % 6d:%-15s\\n",
+	timestamp, "→ Recv Boost", arg1, task2name(arg0), arg4, arg2,
+	pidnames[arg2]);
+}
+
+boost:mach_kernel::receive_boost
+/arg3 == 0 && $predicate/
+{
+	printf("%016lu %-18s % 6d:%-15s % 6d from % 6d:%-15s %s\\n",
+	timestamp, "→ Recv Boost", arg1, task2name(arg0), arg4, arg2,
+	pidnames[arg2], "ERROR: See system log for more information.");
+}
+
+boost:mach_kernel::drop_boost
+/arg2 > 1 && $predicate/
+{
+	printf("%016lu %-18s % 6d:%-15s % 6d (count: %d)\\n", 
+	timestamp, "← Drop Boost", arg1, task2name(arg0), arg3, arg2);
+}
+
+boost:mach_kernel::drop_boost
+/arg2 == 1 && $predicate/
+{
+	printf("%016lu %-18s % 6d:%-15s % 6d\\n", 
+	timestamp, "← Drop Boost", arg1, task2name(arg0), arg3);
+}
+
+boost:mach_kernel::drop_boost
+/arg2 == 0 && $predicate/
+{
+	printf("%016lu %-18s % 6d:%-15s % 6d %s\\n", 
+	timestamp, "← Drop Boost", arg1, task2name(arg0), arg3,
+	"ERROR: See system log for more information.");
+}
+
+boost:mach_kernel::boost
+/$predicate/
+{
+	printf("%016lu %-18s % 6d:%-15s\\n", timestamp, "↑ BOOSTED", arg1, task2name(arg0));
+	boosttime[arg1] = timestamp;
+}
+
+boost:mach_kernel::unboost
+/$predicate/
+{
+	printf("%016lu %-18s % 6d:%-15s        Boosted for %lu ms\\n", timestamp, 
+		"↓ UNBOOST", arg1, task2name(arg0), 
+		(timestamp - boosttime[arg1]) / 1000000);
+	boosttime[arg1] = 0;
+}
+EOF
+
+
+if [ $internal -eq 1 ]; then
+	cat >> $SCRIPTFILE <<-EOF
+	boost:mach_kernel::receive_internal_boost
+	/arg4 > 1 && $predicate/
+	{
+		printf("%016lu %-18s % 6d:%-15s % 6d from % 6d:%-15s (count: %d)\\n", 
+		timestamp, "→ Recv Int Boost", arg1, task2name(arg0), arg5, arg3,
+		task2name(arg2), arg4);
+		$recvstack
+	}
+
+	boost:mach_kernel::receive_internal_boost
+	/arg4 == 1 && $predicate/
+	{
+		printf("%016lu %-18s % 6d:%-15s % 6d from % 6d:%-15s\\n", 
+		timestamp, "→ Recv Int Boost", arg1, task2name(arg0), arg5, arg3,
+		task2name(arg2));
+		$recvstack
+	}
+
+	boost:mach_kernel::receive_internal_boost
+	/arg4 == 0 && $predicate/
+	{
+		printf("%016lu %-18s % 6d:%-15s % 6d from % 6d:%-15s %s\\n", 
+		timestamp, "→ Recv Int Boost", arg1, task2name(arg0), arg5, arg3,
+		task2name(arg2), "ERROR: See system log for more information.");
+		$recvstack
+	}
+
+	boost:mach_kernel::drop_internal_boost
+	/arg2 > 1 && $predicate/
+	{
+		printf("%016lu %-18s % 6d:%-15s % 6d (count: %d)\\n", 
+		timestamp, "← Drop Int Boost", arg1, task2name(arg0), arg3, arg2);
+		$dropstack
+	}
+	
+	boost:mach_kernel::drop_internal_boost
+	/arg2 == 1 && $predicate/
+	{
+		printf("%016lu %-18s % 6d:%-15s % 6d\\n", 
+		timestamp, "← Drop Int Boost", arg1, task2name(arg0), arg3);
+		$dropstack
+	}
+
+	boost:mach_kernel::drop_internal_boost
+	/arg2 == 0 && $predicate/
+	{
+		printf("%016lu %-18s % 6d:%-15s % 6d %s\\n", 
+		timestamp, "← Drop Int Boost", arg1, task2name(arg0), arg3, 
+		"ERROR: See system log for more information.");
+		$dropstack
+	}
+	EOF
+fi
+
+if [ $appsleep -eq 1 ]; then
+	cat >> $SCRIPTFILE <<-EOF
+	fbt:mach_kernel:task_policy_set:entry 
+	/$appsleeppredicate && arg1 == 3 && ((task_suppression_policy_t)arg2)->active == 1/
+	{
+		printf("%016lu %-18s % 6d:%-15s\\n", 
+		timestamp, "z App Slept", task2pid(arg0), task2name(arg0));
+		$appsleepstack
+	}
+
+	fbt:mach_kernel:task_policy_set:entry 
+	/$appsleeppredicate && arg1 == 3 && ((task_suppression_policy_t)arg2)->active == 0/
+	{
+		printf("%016lu %-18s % 6d:%-15s\\n", 
+		timestamp, "! App Woke", task2pid(arg0), task2name(arg0));
+		$appsleepstack
+	}
+	EOF
+fi
+
+if [ $postprocess -eq 0 ]; then
+	/usr/sbin/dtrace -C -s $SCRIPTFILE
+else
+	/usr/sbin/dtrace -C -s $SCRIPTFILE | ruby -e "
+STDIN.set_encoding(Encoding::UTF_8)
+\$events = {}
+def printline(k)
+      printf(\"%04d:%02d:%02d.%09d %s\", k/60/60/1000000000, (k/60/1000000000) % 60, (k/1000000000) % 60, k%1000000000, \$events.delete(k))
+end
+trap(:INT) { \$events.keys.sort.each{|k| printline(k) }; Process.exit}
+\$events.keys.sort.each{|k| printline(k) }
+while STDIN.gets
+  (ts, event) = \$_.split(\" \",2)
+  \$events[ts.to_i] = event
+  \$events.keys.sort.each{|k| printline(k) if ts.to_i - k > 200000000 }
+end
+\$events.keys.sort.each{|k| printline(k) }
+"
+fi
